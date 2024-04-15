@@ -1,0 +1,227 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background: black;
+}
+
+.main{
+    background-image: url("assests/images/bg.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 85vh;
+    position: relative;
+}
+.box
+{
+    height: 85vh;
+    width: 100%;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    background-color: black;
+
+}
+nav{
+    display: flex;
+   max-width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    position: relative;
+    z-index: 10;
+}
+
+
+nav img{
+    color: red;
+    width: 114px;
+   
+}
+
+.text
+{
+   height: calc(98% - 10%);
+   display: flex;
+   font-size: large;
+   align-items: center;
+   justify-content: center;
+   flex-direction:column;
+   color: white;   
+   position: relative;
+   gap: 20px;
+   padding: top 0;
+   z-index: 1;
+}
+
+.text :nth-child(1)
+{
+    border: 0cap;
+    font-size: medium;
+    padding: 2px 25px;
+    height: 45px;
+    border-radius: 5px;
+    color: white;
+   
+   
+    
+}
+
+.text :nth-child(2)
+{
+   border: 0cap;
+    font-size: larger;
+    padding: 3px 25px;
+    height: 49px;
+    border-radius: 5px;
+   
+}
+
+
+.sepration
+{
+    height: 5px;
+    background-color: rgb(87, 86, 86);
+}
+.btn
+{
+    
+   
+   
+    height: 30px;
+    padding: 3px 24px;
+    font-size: 15px;
+    border-color: 5px solid white;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: rgba(235, 235, 242, 0.091);
+    color: white;
+    cursor: pointer;
+}
+
+
+.btn-red-sm
+{
+background-color: red;
+color: white;
+}
+
+.main input
+{
+    background-color: rgba(23, 23, 23, 0.99);
+  border-color: 5px solid white;
+}
+
+.first
+{
+    display: flex;
+    padding:20px;
+    color: white;
+    justify-content: center;
+    align-items: flex-start;
+    margin: auto;
+    max-width: 80vw;
+    
+
+}
+.secImg
+{
+    position: relative;
+    z-index: -1;
+}
+
+.secImg > img
+{
+    width:40vw;
+   position: relative;
+   z-index: 1;
+   height: 400px;
+    
+}
+.secImg > video
+{
+    position: absolute;
+    width: 35vw;
+   height: 398px;
+
+    right: 0;
+}
+
+.text1
+{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text1 :nth-child(1)
+{
+    
+   font-size: 50px;
+   font-weight: bolder;
+}
+
+.text1 :nth-child(2)
+{
+   font-size: 25px;
+   font-weight: normal;
+}
+
+.faq
+{
+   display: flex;
+   flex-direction: column;
+   color: white;
+    padding: 35px;
+  
+}
+.faq h1 
+{
+    text-align: center;
+    color: white;
+}
+.faqbox :hover
+{
+    height: 4vh;
+    width: 100vw;
+    background-color: rgb(84, 81, 81);
+}
+.faqbox{
+    gap: 55px;
+    transition: all;
+    background-color: rgba(128, 128, 128, 0.29);
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    justify-content: space-between;
+    padding: 25px 18px;
+    font-size: large;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.text3
+{
+   height: calc(98% - 10%);
+   display: flex;
+   font-size: large;
+   align-items: center;
+   justify-content: center;
+   flex-direction:column;
+   color: white;   
+   position: relative;
+   gap: 20px;
+   padding: top 0;
+   z-index: 1;
+   height: 80px;
+   padding: 20px 50px;
+}
